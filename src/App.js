@@ -38,7 +38,7 @@ function App() {
         {tags.map((tag, index) => {
           return (
             <div key={index} className="tag">
-              <span>{tag}</span>
+              <div style={{ display: "flex" }}>{tag}</div>
               <img
                 onClick={() => deleteClick(index)}
                 src={xx}
